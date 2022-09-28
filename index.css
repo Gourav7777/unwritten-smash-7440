@@ -1,0 +1,281 @@
+ 
+ body{
+    padding: 40px;
+ }
+
+
+#navbar{
+    border: 0px solid blue;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+#navbar>div{
+     border: 0px solid red;
+     width: 45%;
+     display: flex;
+     align-items: center;
+     margin-left: 80px;
+     
+
+ }
+ #navbar>div:nth-child(1){
+   margin-left: 60px;
+}  
+ #navbar img{
+    width: 200px
+ }
+ #navbar>div:nth-child(2){
+   
+    display: flex;
+    width: 44%;
+    margin-right: 10px;
+}  
+
+#navbar button{
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 20px;
+    width: 82px;
+    background-color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+ #navbar button:hover{
+    
+    background-color:#E0E0E0 ;
+    border: 5px;
+    
+}
+#navbar > div button:nth-child(4){
+    width: 90px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+  
+    #belownav{
+        border: 0px solid blue;
+    display: flex;
+    padding: 20px;
+    
+    }
+    #belownav>div{
+        border: 1px solid black;
+        width: 14%;
+        display: flex;
+        align-items: center;
+        
+        margin: 0px;
+        
+        margin-left: 10px;
+        cursor: pointer;
+        border-radius: 15px;
+        
+        
+   
+    }
+    
+    #belownav>div:hover{
+        background-color:#18FFFF;
+        
+    }
+
+    #belownav>div:nth-child(1){
+   margin-left: 60px;
+    }
+    #belownav>div p{
+      margin-left: 15px;
+      font-weight: bold;
+      /* font-size: 18px; */
+    }
+    #belownav>div> svg{
+        width: 20px;
+        margin-left: 70px;
+    } 
+    #belownav>div> svg:hover{
+    color: white;
+    } 
+
+    #img{
+        margin: auto;
+        border: 1px solid green;
+      
+        text-align: center;
+        background-image: url("images/background.jpg");
+        width: 86%;
+        height: 340px;
+        
+    }
+   
+    
+      #input {
+        border-radius: 25px;
+        margin-top: 150px;
+        width:72%;
+        margin-left:60px;
+        padding:20px
+
+      }
+     
+      #container{
+        border: 0px solid red;
+        height: 250px;
+        display: flex;
+        gap: 25px;
+        width: 95%;
+        
+      }
+      #container> div{
+        border: 0px solid green ;
+        width: 21%;
+        height: 100%;
+      }
+      #container> div:nth-child(1){
+        margin-left: 85px;
+      }
+      .first-div{
+        background-image: url(images/img1.jpg);
+        background-size: 100% 100%;
+        animation: slider 9s infinite linear;
+      }
+      @keyframes slider{
+        0%{ background-image: url(images/img1.jpg); }
+        50%{  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/67/e5/04/caption.jpg?w=300&h=300&s=1);}
+      }
+      h2{
+        margin-left: 80px;
+      }
+
+      .second-div{
+        background-image: url(images/img2.jpg);
+        background-size: 100% 100%;
+        
+      }
+      .third-div{
+        background-image: url(images/img3.jpg);
+        background-size: 100% 100%;
+        animation: slide 9s infinite linear;
+      }
+
+      @keyframes slide{
+        0%{ background-image: url(images/img3.jpg); }
+        50%{  background-image: url(images/img8.jpg);}
+      }
+
+      .fourth-div{
+        background-image: url(images/img6.jpg);
+        background-size: 100% 100%;
+        
+      }
+
+      #getout{
+        border: 0px solid red;
+        height: 170px;
+        display: flex;
+      
+        width: 95%;
+        
+      }
+      #getout> div{
+        border: 0px solid green ;
+       
+        height: 100%;
+      }
+      #getout> div:nth-child(1){
+        margin-left: 85px;
+        background-color: #faf1ed;
+        width: 48%;
+      padding-left: 35px;
+      font-size: 17px;
+      }
+      #getout> div:nth-child(2){
+        width: 40%;
+        background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/f7/1d/4d/caption.jpg?w=1000&h=-1&s=1");
+        background-size: cover;
+        
+        
+    }
+        
+        #getout p{
+            margin-top: -15px;
+            color: gray;
+        }
+        #getout h3{
+            margin-top: 30px;
+            /* color: gray; */
+        }
+        
+    
+        
+      #getout> div img{
+        margin-left: 350px;
+        height: 100px;
+        margin-top: 60px;
+
+      }
+      #getout > div button{
+        width: 100px;
+        padding: 12px;
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+    }
+
+    
+    #contain{
+        border: 0px solid red;
+        height: 250px;
+        display: flex;
+        gap: 25px;
+        width: 95%;
+        
+      }
+      #contain> div{
+        border: 0px solid green ;
+        width: 21%;
+        height: 100%;
+      }
+
+      #contain> div:nth-child(1){
+        margin-left: 85px;
+      }
+      .firs-div{
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/68/2b/0f/merkmal-des-dal-sees.jpg?w=300&h=300&s=1);
+        background-size: 100% 100%;
+        animation: sliderr 9s infinite linear;
+      }
+      @keyframes sliderr{
+        0%{ background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/68/2b/0f/merkmal-des-dal-sees.jpg?w=300&h=300&s=1); }
+        50%{  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ec/dc/15/aru-city.jpg?w=300&h=300&s=1);}
+      }
+      .secon-div{
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/54/4a/57/photo0jpg.jpg?w=300&h=300&s=1);
+        background-size: 100% 100%;
+        
+      }
+      .thir-div{
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/07/0b/38/the-road-takes-you-deeper.jpg?w=300&h=300&s=1);
+        background-size: 100% 100%;
+        animation: sliderrr 9s infinite linear;
+      }
+
+      @keyframes sliderrr{
+        0%{ background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/07/0b/38/the-road-takes-you-deeper.jpg?w=300&h=300&s=1); }
+        50%{  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3b/cb/a7/banasura-sagar-dam.jpg?w=300&h=300&s=1);}
+      }
+
+      .fourt-div{
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f5/cb/a2/the-morning-show.jpg?w=300&h=300&s=1);
+        background-size: 100% 100%;
+        
+      }
+      
