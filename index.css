@@ -136,6 +136,7 @@
         width: 21%;
         height: 100%;
       }
+      
       #container> div:nth-child(1){
         margin-left: 85px;
       }
@@ -143,6 +144,7 @@
         background-image: url(images/img1.jpg);
         background-size: 100% 100%;
         animation: slider 9s infinite linear;
+        cursor: pointer;
       }
       @keyframes slider{
         0%{ background-image: url(images/img1.jpg); }
@@ -155,12 +157,14 @@
       .second-div{
         background-image: url(images/img2.jpg);
         background-size: 100% 100%;
+        cursor: pointer;
         
       }
       .third-div{
         background-image: url(images/img3.jpg);
         background-size: 100% 100%;
         animation: slide 9s infinite linear;
+        cursor: pointer;
       }
 
       @keyframes slide{
@@ -171,6 +175,7 @@
       .fourth-div{
         background-image: url(images/img6.jpg);
         background-size: 100% 100%;
+        cursor: pointer;
         
       }
 

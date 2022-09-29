@@ -1,0 +1,462 @@
+
+#top-exp{
+    border: 0px solid red;
+    height: 150px;
+    display: flex;
+    gap: 25px;
+    width: 95%;
+    
+  }
+  #top-exp> div{
+    border: 0px solid green ;
+    width: 21%;
+    height: 90%;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+    
+  }
+  #top-exp> div:nth-child(1){
+    margin-left: 80px;
+  }
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #00aa6c;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    
+  }
+
+  #scenic{
+    border: 0px solid red;
+    height: 150px;
+    display: flex;
+    gap: 25px;
+    width: 95%;
+    
+  }
+  #scenic > div{
+    border: 0px solid green ;
+    width: 21%;
+    height: 90%;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+    
+  }
+  #scenic> div:nth-child(1){
+    margin-left: 80px;
+  }
+
+  #moretoexplore{
+    border: 0px solid red;
+    height: 260px;
+    display: flex;
+    
+    width: 100%;
+    background-color:#faf1ed
+    
+    
+  }
+  .moretoexp{
+    font-size: 22px; 
+    font-weight:bold;
+  
+      border: 0px solid green;
+      width: 93%;
+      padding:15px;
+      padding-left: 75px;
+      background-color:#faf1ed
+      
+  }
+
+  #moretoexplore> div{
+    border: 0px solid green ;
+    width: 25%;
+    height: 100%;
+
+  }
+  
+  
+
+  .phla-div{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ab/94/ba/2de5214a-d5dc-42d2.jpg?w=400&h=-1&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    margin-left: 70px;
+  }
+  .dusra-div{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c8/20/d4/45276d36-cc36-4a32.jpg?w=400&h=-1&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  .tisra-div{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c8/2e/9a/2520956e-5665-4e9f.jpg?w=400&h=-1&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    margin-left: 80px;
+  }
+
+  #belowexp{
+    border: 0px solid red;
+    height: 150px;
+    display: flex;
+    
+    width: 100%;
+    background-color:#faf1ed;
+    gap: 12px;
+    text-align: center;
+    
+  }
+  #belowexp> div{
+    border: 0px solid green ;
+    width: 25%;
+    height: 70%;
+   background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+ 
+  #dream{
+    border: 0px solid red;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    width: 95%;
+    
+  }
+  #dream> div{
+    border: 0px solid green ;
+    width: 24%;
+    height: 100%;
+  }
+  
+  #dream> div:nth-child(1){
+    margin-left: 85px;
+  }
+
+  .dream-first{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/fc/agra.jpg?w=300&h=300&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+   
+  }
+  .dream-second{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/03/3f/fd/caption.jpg?w=300&h=300&s=1&cx=2294&cy=1952&chk=v1_c3b28b866491ff3722ce);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    
+  }
+  .dream-third{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/46/65/04/photo3jpg.jpg?w=300&h=300&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    
+  }
+  .dream-fourth{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/80/8e/5d/jim-corbett.jpg?w=300&h=300&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    
+  }
+
+  #top-des{
+    border: 0px solid red;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    width: 95%;
+    
+  }
+  #top-des> div{
+    border: 0px solid green ;
+    width: 24%;
+    height: 100%;
+  }
+  
+  #top-des> div:nth-child(1){
+    margin-left: 85px;
+  }
+
+  .des-first{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/68/f6/caption.jpg?w=300&h=300&s=1&cx=988&cy=664&chk=v1_d1b5b3f4c384c764b7e1);
+    background-size: 100% 100%;
+    animation: sl 9s infinite linear;
+   
+    cursor: pointer;
+   
+  }
+  @keyframes sl{
+    0%{ background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/bf/69/b0/caption.jpg?w=300&h=300&s=1); }
+    50%{  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/68/f6/caption.jpg?w=300&h=300&s=1&cx=988&cy=664&chk=v1_d1b5b3f4c384c764b7e1);}
+  }
+  .des-second{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/60/b0/bd/bora-bora.jpg?w=300&h=300&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    
+  }
+  .des-third{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f7/dd/caption.jpg?w=300&h=300&s=1);
+    background-size: 100% 100%;
+    animation: sli 9s infinite linear;
+    cursor: pointer;
+    
+  }
+  @keyframes sli{
+    0%{ background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f7/dd/caption.jpg?w=300&h=300&s=1); }
+    50%{  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5e/c2/caption.jpg?w=300&h=300&s=1);}
+  }
+
+  .des-fourth{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cd/04/e4/caption.jpg?w=300&h=300&s=1);
+    background-size: 100% 100%;
+   
+    cursor: pointer;
+    
+  }
+
+
+  #second-last{
+    border: 0px solid green;
+    display: flex;
+    height: 500px;
+    background-color: #004f32;
+    
+}
+#second-last >div{
+
+    height: 100%;
+    border: 0px solid red;
+    /* width: 40%; */
+}
+#second-last >div:nth-child(1){
+
+   
+     width: 25%
+}
+.last-sec{
+   width: 70%;
+    background-image: url(https://static.tacdn.com/img2/brand/feed/tc_cards_tablet.jpeg);
+    
+}
+#exception{
+    border: 0px solid blue;
+    width: 280px;
+    height: 50px;
+    margin-left: 45px;
+    background-color: white;
+    border-radius: 0px 15p 14px 15px;
+    border-radius: 5px 5px 10px 10px;
+}
+.imgg{
+    width: 150px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.p{
+    font-size: 26px;
+    width: 170px;
+    border: 0px solid red;
+    text-align: center;
+    margin-left: 65px;
+    color: white;
+    margin-top: 20px;
+}
+.winners{
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding: 14px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+
+#footer{
+    border: 0px solid red;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color:#faf1ed;
+   
+      
+
+}
+
+#footer>div{
+    border: 0px solid green ;
+    
+    height: 100%;
+    
+    line-height: 25px;
+}
+#footer>div:nth-child(2){
+width: 25%;
+margin-left: 70px;
+
+}
+.ft{
+    display: flex;
+  width: 55%;
+  gap: 45px;
+  margin-left: 50px;
+}
+.ft p{
+    font-size: 18px;
+   
+    cursor: pointer;
+    margin: 5px;
+}
+.ft p:hover{
+    text-decoration: underline;
+}
+.ft div{
+  border: 0px solid orange;
+  margin-top: 20px;  
+}
+.span{
+    color: gray;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.span:hover{
+    text-decoration: underline;
+    
+}
+
+
+#lowerfooter{
+    border: 0px solid red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color:#faf1ed;
+    
+      
+
+}
+
+#lowerfooter>div{
+    border: 0px solid green ;
+    
+    height: 100%;
+    
+}
+#lowerfooter>div:nth-child(1){
+    
+    width: 60%;
+    margin-left: 30px;
+    
+
+}
+#lowerfooter>div:nth-child(2){
+    
+    width: 35%;
+    
+
+}
+#inr{
+    width: 200px; 
+     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#inr:hover{
+    background-color: #E0E0E0;
+}
+#ind:hover{
+    background-color: #E0E0E0;
+}
+#ind{
+    width: 170px; 
+     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+}
+#twoselect{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+#twoselect div{
+    margin-top: 10px;
+}
+    
+
+    #left{
+        border: 0px solid blue;
+        display: flex;
+        
+    }
+    #left>div{
+        border: 0px solid black;
+        height: 100%;
+    }
+    #left>div:nth-child(1){
+        width: 10%;
+        margin-left: 20px;
+    }
+    #left>div:nth-child(2){
+        width: 80%;
+    }
+
+
+    #bottom{
+        border: 0px solid red;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        background-color:#faf1ed;
+        
+          
+    
+    }
+    
+    #bottom>div{
+        border: 0px solid green ;
+        
+        height: 100%;
+        
+    }
+    #bottom>div:nth-child(1){
+        width: 63%;
+        margin-left: 50px;
+    }
+    #bottom>div:nth-child(2){
+        width: 15%;
+        margin-left: 180px;
+    }
+  #social{
+    display: flex;
+    gap: 20px;
+  }
+ 
+ 
