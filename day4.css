@@ -1,0 +1,502 @@
+body{
+    background-color: #f1f1f1;
+}
+#belownav{
+    border: 1px solid silver;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    height: 10px;
+    gap: 20px;
+    
+    width: 100%;
+    margin-top: -10px;
+   
+}
+#belownav p{
+
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 400;
+
+    font-Size: 14px;
+  
+    Line-height: 18px;
+    padding: 5px;
+    Color:#333333;
+    margin-top: -10px;
+
+
+
+
+
+}
+
+#navbar{
+    border: 0px solid blue;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    margin-top: -10px;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: -20px;
+}
+#navbar>div{
+     border: 0px solid red;
+    
+     display: flex;
+     align-items: center;
+     margin-left: 80px;
+     
+
+ }
+ #navbar>div:nth-child(1){
+   margin-left: 60px;
+   width: 50%;
+}  
+ #navbar img{
+    width: 200px
+ }
+ #navbar>div:nth-child(2){
+   
+    display: flex;
+    width: 44%;
+    margin-right: 10px;
+}  
+
+#navbar button{
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 20px;
+    width: 82px;
+    background-color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+ #navbar button:hover{
+    
+    background-color:#E0E0E0 ;
+    border: 5px;
+    
+}
+#navbar > div button:nth-child(4){
+    width: 90px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+.searchbar{
+     width: 20px;
+     margin-left: 20px;
+     /* margin-top: 40px; */
+}
+#input {
+    border: 1px solid gray;
+    border-radius: 25px;
+    /* margin-top: 150px; */
+    width:50%;
+    margin-left:60px;
+    padding:10px;
+    height:20px
+
+  }
+#jstabovecntnr{
+    border: 0px solid green;
+    width: 100%;
+    height: 30px;
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 400;
+
+    font-Size: 11px;
+  
+    Line-height: 15px;
+    padding: 5px;
+    Color:#8c8c8c;
+    text-align: end;
+    background-color: white;
+}
+#container{
+    border: 0px solid red;
+    width: 70%;
+    
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    
+}
+
+#container>div{
+    border: 0px solid blue;
+    height: 370px;
+    padding: 28px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+
+#container>div:nth-child(1)>div{
+    border: 0px solid red;
+    height: 100%;
+    
+    
+}
+
+.p{
+    margin-top: 15px;
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 35px;
+    Line-height: 15px;
+    color:#000000 ;
+}
+
+#container>div>div{
+
+    border: 0px solid red;
+    height: 100%;
+    width: 49%;
+}
+#container>div>div:nth-child(1){
+
+    
+    
+      width: 60%;
+      padding-left: 10px;
+  }
+#container>div>div:nth-child(2){
+
+    
+  margin-top: -15px;
+    width: 40%;
+    padding-left: 20px;
+}
+#container>div>div> img{
+object-fit: cover;
+    
+    width: 100%;
+}
+.heading{
+
+    font-family: "Trip Sans", serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 30px;
+    margin-top: -10px;
+    color:#000000 ;
+    cursor: pointer;
+   
+}
+.heading:hover{
+    text-decoration: underline;
+}
+.city{
+
+    font-family: "Trip Sans", serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 14px;
+    line-height: 14px;
+    margin-top: -20px;
+    color:#000000 ;
+    cursor: pointer;
+   
+}
+.city:hover{
+    text-decoration: underline;
+}
+.inverted{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-Size: 15px;
+    line-height: 20px;
+ 
+    color:#333333 ;
+    cursor: pointer;
+}
+   .smallheading{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 14px;
+   
+    
+    color:#000000 ;
+} 
+.list{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 14px;
+   line-height: 18px;
+    margin-top: -10px;
+    color:#006699 ;
+    cursor: pointer;
+    
+   
+}
+.list:hover{
+    text-decoration: underline;
+}
+ 
+   .pp{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 24px;
+  
+   
+    color:#000000 ;
+    cursor: pointer;
+   }
+
+   #parent{
+    border: 0px solid red;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    gap: 20px;
+    margin-top: -50px;
+    
+}
+
+#parent>div{
+    border: 0px solid blue;
+    height:120px ;
+    padding: 28px;
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 18px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color:#ffffff ;
+    cursor: pointer;
+
+}
+.last{
+    border: 0px solid red;
+    width: 70%;
+    display: grid;
+    
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+   
+    margin-top: -20px;
+    
+}
+#lastpara{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-Size: 15px;
+     line-height: 20px;
+   
+    color:#000000 ;
+    cursor: pointer;
+}
+    .one{
+        background-image: url(https://static.tacdn.com/img2/tc/2022/tc_ThingsToDo_category_TopExperiences.jpg);
+        background-size: 100% 100%;
+      
+        
+    }
+
+    .two{
+        background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/23/9e/01/58/3n-to-machu-picchu-group.jpg);
+        background-size: 100% 100%;
+        
+    }
+    .three{
+        background-image: url(https://static.tacdn.com/img2/tc/2022/tc_ThingsToDo_category_Day_Cruises.jpg);
+        background-size: 100% 100%
+    }
+    .four{
+        background-image: url(https://static.tacdn.com/img2/tc/2022/tc_ThingsToDo_category_Food_Experiences.jpg);
+        background-size: 100% 100%
+    }
+  .five{
+    background-image: url(https://static.tacdn.com/img2/tc/2022/tc_ThingsToDo_category_WineBeerSpirits.jpg);
+    background-size: 100% 100%
+  }
+  .six{
+    background-image: url(https://static.tacdn.com/img2/tc/2022/tc_ThingsToDo_category_SnorkelingWater.jpg);
+    background-size: 100% 100%
+  }
+  .seven{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/1a/66/21/ef/caption.jpg);
+    background-size: 100% 100%
+  }
+  .eight{
+    background-image: url(https://static.tacdn.com/img2/tc/2022/tc_ThingsToDo_category_CultureHistory.jpg);
+    background-size: 100% 100%
+  }
+  .nine{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/23/c3/7f/5b/caption.jpg);
+    background-size: 100% 100%
+  }
+  .ten{
+    background-image: url(https://static.tacdn.com/img2/tc/cross/Cross_Sell_ThingsToDo.jpg);
+    background-size: 100% 100%
+  }
+  .eleven{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/18/b0/c3/da/can-you-defeat-singha.jpg);
+    background-size: 100% 100%
+  }
+   
+  #foooter{
+    border: 0px solid red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color:#faf1ed;
+    
+  }
+  #foooter>div{
+    border: 0px solid green ;
+    
+    height: 100%;
+    padding-top: 10px;
+    
+}
+#foooter>div:nth-child(1){
+    
+    width: 60%;
+    
+    
+
+}
+#footer>div:nth-child(2){
+    
+    width: 35%;
+    
+
+}
+#inr{
+    width: 200px; 
+     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#inr:hover{
+    background-color: #E0E0E0;
+}
+#ind:hover{
+    background-color: #E0E0E0;
+}
+#ind{
+    width: 170px; 
+     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+}
+#twoselect{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+#twoselect div{
+    margin-top: 10px;
+}
+#twoselect div:nth-child(1){
+    
+    margin-left: 50px;
+}
+    
+
+    #left{
+        border: 0px solid blue;
+        display: flex;
+        
+    }
+    #left>div{
+        border: 0px solid black;
+        height: 100%;
+    }
+    #left>div:nth-child(1){
+        width: 10%;
+        margin-left: 20px;
+    }
+    #left>div:nth-child(2){
+        width: 80%;
+    }
+
+   .pppp{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 16px;
+     line-height: 19px;
+   
+    color:#545454 ;
+    cursor: pointer;
+    text-decoration: underline;
+   } 
+
+  .llc{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 12px;
+     line-height: 18px;
+   
+    color:#333333 ;
+    cursor: pointer;
+    
+  }
+  #bottom{
+    border: 0px solid red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color:#faf1ed;
+    
+      
+
+}
+
+#bottom>div{
+    border: 0px solid green ;
+    
+    height: 100%;
+    
+}
+#bottom>div:nth-child(1){
+    width: 63%;
+    margin-left: 20px;
+}
+    
+    
+  
+
+
+    
