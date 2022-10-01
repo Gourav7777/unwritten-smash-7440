@@ -95,12 +95,12 @@ body{
 .searchbar{
      width: 20px;
      margin-left: 20px;
-     /* margin-top: 40px; */
+     
 }
 #input {
     border: 1px solid gray;
     border-radius: 25px;
-    /* margin-top: 150px; */
+   
     width:50%;
     margin-left:60px;
     padding:10px;

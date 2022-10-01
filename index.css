@@ -51,7 +51,7 @@
     border: 5px;
     
 }
-#navbar > div button:nth-child(4){
+#signin{
     width: 90px;
     padding: 8px;
     background-color: black;
@@ -213,7 +213,7 @@
         }
         #getout h3{
             margin-top: 30px;
-            /* color: gray; */
+           
         }
         
     

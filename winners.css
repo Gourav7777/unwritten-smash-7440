@@ -1,0 +1,410 @@
+
+
+#belownav{
+    border: 1px solid silver;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    height: 10px;
+    gap: 20px;
+    
+    width: 100%;
+    margin-top: -10px;
+   
+}
+#belownav p{
+
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 400;
+
+    font-Size: 14px;
+  
+    Line-height: 18px;
+    padding: 5px;
+    Color:#333333;
+    margin-top: -10px;
+
+
+
+
+
+}
+
+#navbar{
+    border: 0px solid blue;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    margin-top: -10px;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: -20px;
+}
+#navbar>div{
+     border: 0px solid red;
+    
+     display: flex;
+     align-items: center;
+     margin-left: 80px;
+     
+
+ }
+ #navbar>div:nth-child(1){
+   margin-left: 60px;
+   width: 50%;
+}  
+ #navbar img{
+    width: 200px
+ }
+ #navbar>div:nth-child(2){
+   
+    display: flex;
+    width: 44%;
+    margin-right: 10px;
+}  
+
+#navbar button{
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 20px;
+    width: 82px;
+    background-color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+ #navbar button:hover{
+    
+    background-color:#E0E0E0 ;
+    border: 5px;
+    
+}
+#navbar > div button:nth-child(4){
+    width: 90px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+.searchbar{
+     width: 20px;
+     margin-left: 20px;
+     
+}
+#input {
+    border: 1px solid gray;
+    border-radius: 25px;
+   
+    width:50%;
+    margin-left:60px;
+    padding:10px;
+    height:20px
+
+  }
+#jstabovecntnr{
+    border: 0px solid green;
+    width: 100%;
+    height: 30px;
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 400;
+
+    font-Size: 11px;
+  
+    Line-height: 15px;
+    padding: 5px;
+    Color:#8c8c8c;
+    text-align: end;
+    background-color: white;
+}
+
+#travel{
+    border: 0px solid red;
+    width: 600px;
+    height: 100px;
+    margin-left: 300px;
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 400;
+
+    font-Size: 54px;
+  
+    Line-height: 65px;
+    
+    Color:#000000;
+}
+#sentence{
+    border: 0px solid red;
+    width: 700px;
+    height: 300px;
+    margin-left: 300px;
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 400;
+
+    font-Size:20px;
+  
+    Line-height: 24px;
+    
+    Color:#000000;
+}
+#fourimages{
+    border: 0px solid red;
+    width: 780px;
+    height: 730px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,340px);
+    gap: 30px;
+    padding: 5px;
+}
+#fourimages div{
+    
+    border: 0px solid blue;
+    
+    
+}
+.imgfirst{
+  
+ background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/71/f3/e8/caption.jpg?w=400&h=-1&s=1);
+
+   
+}
+.imgsecond{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/71/f3/e7/caption.jpg?w=400&h=-1&s=1);
+    width: 100%;
+}
+.imgthird{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/71/f4/16/caption.jpg?w=400&h=-1&s=1);
+}
+.imgfourth{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/71/f4/15/caption.jpg?w=400&h=-1&s=1);
+}
+
+#single{
+    border: 0px solid red;
+    width: 780px;
+    height: 340px;
+    margin-left: 300px;
+    padding: 5px;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fb/33/93/caption.jpg?w=800&h=-1&s=1);
+}
+
+
+
+
+#penultimate{
+  
+    border: 0px solid red;
+    width: 90%;
+    height: 300px; 
+     margin: auto;
+     gap: 10px;
+     display: flex;
+    }
+
+    #penultimate > div{
+        border: 0px solid green;
+        width: 24%;
+        /* height: 100%; */
+    }
+    .penul{
+        margin-left: 65px;
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 700;
+
+    font-Size: 24px;
+  
+    Line-height: 29px;
+    
+    Color:#000000;
+    }
+
+    .penulone{
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/71/f5/28/caption.jpg?w=400&h=-1&s=1);
+    }
+    .penulfour{
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fa/e9/81/caption.jpg?w=300&h=-1&s=1);
+    }
+    .penultwo{
+       background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fa/e8/fe/caption.jpg?w=300&h=-1&s=1);
+    }
+   .penulthree{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/25/fb/55/caption.jpg?w=300&h=-1&s=1);
+   }
+   .penul-p{
+
+    font-family:"Trip Sans VF", "Trip Sans", Arial, sans-serif;
+   
+    font-style:normal;
+    
+    font-weight: 800;
+
+    font-Size: 28px;
+  
+    Line-height: 29px;
+    width: 50px;
+    Color:#ffffff;
+    margin-top: 180px;
+    margin-left: 20px;
+   }
+
+
+   #foooter{
+    border: 0px solid red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color:#faf1ed;
+    
+  }
+  #foooter>div{
+    border: 0px solid green ;
+    
+    height: 100%;
+    padding-top: 10px;
+    
+}
+#foooter>div:nth-child(1){
+    
+    width: 60%;
+    
+    
+
+}
+#footer>div:nth-child(2){
+    
+    width: 35%;
+    
+
+}
+#inr{
+    width: 200px; 
+     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#inr:hover{
+    background-color: #E0E0E0;
+}
+#ind:hover{
+    background-color: #E0E0E0;
+}
+#ind{
+    width: 170px; 
+     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+}
+#twoselect{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+#twoselect div{
+    margin-top: 10px;
+}
+#twoselect div:nth-child(1){
+    
+    margin-left: 50px;
+}
+    
+
+    #left{
+        border: 0px solid blue;
+        display: flex;
+        
+    }
+    #left>div{
+        border: 0px solid black;
+        height: 100%;
+    }
+    #left>div:nth-child(1){
+        width: 10%;
+        margin-left: 20px;
+    }
+    #left>div:nth-child(2){
+        width: 80%;
+    }
+
+   .pppp{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 16px;
+     line-height: 19px;
+   
+    color:#545454 ;
+    cursor: pointer;
+    text-decoration: underline;
+   } 
+
+  .llc{
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-Size: 12px;
+     line-height: 18px;
+   
+    color:#333333 ;
+    cursor: pointer;
+    
+  }
+  #bottom{
+    border: 0px solid red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color:#faf1ed;
+    
+      
+
+}
+
+#bottom>div{
+    border: 0px solid green ;
+    
+    height: 100%;
+    
+}
+#bottom>div:nth-child(1){
+    width: 63%;
+    margin-left: 20px;
+}
+    
+
+#social{
+    display: flex;
+    gap: 20px;
+    width: 15%;
+    margin-left: 580px;
+  }
+
+
+    
